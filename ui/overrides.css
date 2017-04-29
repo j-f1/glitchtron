@@ -1,0 +1,61 @@
+header {
+  height: 37px;
+  -webkit-app-region: drag;
+  padding-left: 75px;
+}
+header[role=banner] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 5px;
+  border-bottom: 1px solid #e5e5e5;
+  background: white;
+  z-index: 1;
+}
+header[role=banner] nav {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  right: 5px;
+  top: 5px;
+}
+header[role=banner] nav > *:not(:last-child) {
+  margin-right: 1rem;
+}
+.header-info .logo {
+  width: 30px;
+  margin-bottom: 0;
+}
+.opens-pop-over {
+  -webkit-app-region: no-drag;
+}
+nav.header-project-nav {
+  margin-top: 4px;
+}
+nav.header-options {
+  margin-top: 5px;
+  top: 0;
+}
+.project-pop,
+.projects-select-pop,
+.advanced-options-pop {
+  left: 80px;
+}
+
+.custom-console {
+  background-color: #f5f5f5;
+  border-top: 1px solid #b8b8b8;
+  display: flex;
+  flex-direction: column;
+  height: 33%;
+  min-height: 150px;
+  position: relative;
+  z-index: 5;
+}
+
+.beta {
+  cursor: -webkit-grab;
+  -webkit-app-region: drag;
+}

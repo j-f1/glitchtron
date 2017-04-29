@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="loading">
+    <h1>
+      ＿φ( °-°)/
+    </h1>
+    <h2>
+      Loading...
+    </h2>
+  </div>
+  <main>
+    <nav>
+      <img class="favicon" />
+      <div class="title-bar">
+        <a class="title-wrap" data-tooltip="Open in browser"><span class="title">🎊 Loading…</span> <span class="icon">⎋</span></a>
+        <small class="url"></small>
+      </div>
+      <a class="back" data-tooltip="Back">〈</a>
+      <a class="reload" data-tooltip="Reload">⟳</a>
+      <a class="forward" data-tooltip="Forward">〉</a>
+    </nav>
+    <webview partition="persist:preview-"></webview>
+    <span class="href hide"></span>
+  </main>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

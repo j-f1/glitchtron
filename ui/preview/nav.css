@@ -1,0 +1,69 @@
+nav {
+  display: flex;
+  align-items: center;
+  background: white;
+  height: 37px;
+  -webkit-app-region: drag;
+  padding-left: 75px;
+  padding-right: 15px;
+  -webkit-user-select: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+nav .favicon {
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+nav .title-bar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+nav .title-wrap {
+  font-weight: normal;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  max-height: 1.25em;
+  overflow: hidden;
+}
+nav .title {
+  line-height: 1.25em;
+}
+nav .title-wrap .icon {
+  transform: scaleX(-1);
+  transition: opacity 0.4s;
+  display: inline-block;
+}
+nav .title-wrap:not(:hover) .icon {
+  opacity: 0.5;
+}
+nav .url {
+  font-size: 0.65em;
+  opacity: 0.5;
+}
+nav a {
+  margin: 0 1em;
+  margin-top: 0.2em;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+  font-weight: bold;
+  display: inline-block;
+}
+nav .disabled {
+  /*pointer-events: none;*/
+  color: rgba(0, 0, 0, 0.5);
+}
+
+nav .back {
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0.8em;
+}
+nav .forward {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0.8em;
+}
