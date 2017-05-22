@@ -15,7 +15,8 @@ require('electron').ipcRenderer.on('update-preview', () => {
 $page.attr('partition', 'persist:preview-' + query.project.id)
 $page.attr('src', query.src)
 $('.url').text(query.src)
-$page.one('dom-ready', updateButtons)
+$page.on('dom-ready', updateButtons)
+$page.one('dom-ready', () => $page.css('background', 'white'))
 $page.on('page-title-updated', ({ originalEvent: { title } }) => {
   $('.title').text(title)
 })
