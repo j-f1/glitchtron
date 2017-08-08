@@ -1,4 +1,5 @@
 # Glitchtron
+[![Travis](https://img.shields.io/travis/j-f1/glitchtron.svg?style=flat-square)](https://travis-ci.org/j-f1/glitchtron)[![Code style: Standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
 
 ## To Use
 
