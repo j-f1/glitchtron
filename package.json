@@ -4,6 +4,7 @@
   "description": "Glitch, for the desktop",
   "main": "main.js",
   "scripts": {
+    "test": "standard",
     "start": "electron ."
   },
   "author": "Jed Fox <git@twopointzero.us>",
