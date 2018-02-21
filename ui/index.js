@@ -28,10 +28,10 @@ function init () {
     .addClass('console-button')
   consoleButton
     .find('.label')
-      .text('Console')
+    .text('Console')
   consoleButton
     .find('.status')
-      .remove()
+    .remove()
   consoleButton.click(() => {
     // source: https://support.glitch.com/t/testing-and-cmd/1215/2?u=j-f
     if (logButton.hasClass('active')) {
