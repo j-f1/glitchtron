@@ -10,7 +10,7 @@
   "author": "Jed Fox <git@twopointzero.us>",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^1.6.7",
+    "electron": "^2.0.0",
     "standard": "^10.0.2"
   },
   "dependencies": {
