@@ -1,7 +1,6 @@
 # Glitchtron
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/j-f1/glitchtron.svg)](https://greenkeeper.io/)
-[![Travis](https://img.shields.io/travis/j-f1/glitchtron.svg?style=flat-square)](https://travis-ci.org/j-f1/glitchtron)[![Code style: Standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
+[![Greenkeeper badge](https://badges.greenkeeper.io/j-f1/glitchtron.svg?style=flat-square)](https://greenkeeper.io/)[![Travis](https://img.shields.io/travis/j-f1/glitchtron.svg?style=flat-square)](https://travis-ci.org/j-f1/glitchtron)[![Code style: Standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
 
 ## To Use
 
